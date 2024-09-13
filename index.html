@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="gal.png">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My gallery</title>
+  <meta name="title" content="Mr Susant">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font.css">
+
+  <link rel="preload" as="image" href="loading.svg">
+  <link rel="preload" as="image" href="loading-circle.svg">
+
+</head>
+
+<body class="active" id="top">
+
+  <div class="loading" data-loading>
+    <img src="loading-circle.svg" width="70" height="70" alt="" class="circle">
+  </div>
+
+
+
+
+
+
+  <header class="header" data-header>
+    <div class="container">
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://susanta07.github.io/myport.github.io/" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
+        </ul>
+
+        <p class="navbar-title">My Address</p>
+
+        <address class="navbar-text">
+          Nabadwip, Nadia
+        </address>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <h4 class="h4 section-title" data-reveal="right">
+    <a href="https://susanta07.github.io/myport.github.io/">Portfolio</a>
+  </h4><br>
+
+  <main>
+    <article>
+      <section class="section about" id="about" aria-label="about me"></section>
+        <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title" data-reveal="right">
+              Hi. I’m <br>
+              Susant
+            </h2><br>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="left">
+
+            <div class="img-holder has-before" style="--width: 512; --height: 684;">
+              <img src="mir.jpg" width="512" height="684" loading="lazy" alt="Riachard Ryan"
+                class="img-cover">
+            </div>
+        </div>
+      </section>
+
+
+      <h3 class="h2 section-title" style="margin-left: 13px;" data-reveal="right">
+        My gallery
+      </h3><br>
+
+    
+      <section class="section gallery" id="gallery">
+        <div class="container">
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="ss10.jpg" width="450" height="625" loading="lazy" alt="The Drunken"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+               
+
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="ss10.jpg" width="450" height="625" loading="lazy"
+                    alt="Lettuce Entertain" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+               
+              </div>
+
+            </li>
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="ss15.jpg" width="450" height="625" loading="lazy" alt="Leaping Lizard"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+              
+
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="ss15.jpg" width="450" height="625" loading="lazy" alt="Juan More Taco"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+               
+
+              </div>
+
+            </li>
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="ss16.jpg" width="450" height="625" loading="lazy" alt="Goldilox Bagels"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+               
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="ss16.jpg" width="450" height="625" loading="lazy" alt="Cookie Monstah"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+             
+              </div>
+
+            </li>
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="chd.jpg" width="450" height="625" loading="lazy"
+                    alt="Divine Pastabilities" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+               
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="chd.jpg" width="450" height="625" loading="lazy"
+                    alt="The Lockhart Bar" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title"></a>
+                  </h3>
+
+                  <span class="card-tag"></span>
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+          
+      </section>
+
+      <section class="section category" aria-label="photography category">
+        <div class="container">
+
+          <ul class="category-list">
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Mountain,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="msk2.jpg" width="600" height="690" loading="lazy" alt="Landscape"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Mine,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="ss12.jpg" width="600" height="690" loading="lazy" alt="Model"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Bro,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="vi3.jpg" width="600" height="690" loading="lazy" alt="Street"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Product,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="ss7.jpg" width="600" height="690" loading="lazy" alt="Product"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Fashion,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="mg1.jpg" width="600" height="690" loading="lazy" alt="Fashion"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Festival,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="jogod.jpg" width="600" height="690" loading="lazy" alt="Film"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Architecture,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="durga.jpg" width="600" height="690" loading="lazy" alt="Architecture"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Event,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="ss8.jpg" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Home,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="ss11.jpg" width="600" height="690" loading="lazy" alt="Wedding"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Zudio</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="ss6.jpg" width="600" height="690" loading="lazy" alt="People"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Mirror</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="ss5.jpg" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">winter</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="msk.jpg" width="600" height="690" loading="lazy" alt="Food"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Shoot</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="ss1.jpg" width="600" height="690" loading="lazy"
+                    alt="Health & Wellnes" class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+  <footer class="footer">
+
+    <div class="footer-top section" id="contact">
+      <div class="container">
+
+        <p class="section-subtitle" data-reveal>Contact Us<br> Mail- coolestraj1551@gmail.com<br> Ph- +91-8001627251</p>
+
+        <h2 class="h2 section-title" data-reveal>
+          Work inquiry, Job oportunities? Send Message.
+        </h2>
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="logo.svg" width="40" height="40" loading="lazy" alt="Richard home">
+        </a>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="" class="social-link">Git.</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/raj_x_11_07/" class="social-link">Insta.</a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UC03N1EDi5vTiL2rn04djV0A" class="social-link">Yt.</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">Made with love</p>
+
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img src="um.jpg" width="1920" height="1135" loading="lazy" alt="photography"
+        class="img-cover">
+    </div>
+
+  </footer>
+
+  <div class="cursor" data-cursor></div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
