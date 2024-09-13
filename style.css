@@ -261,7 +261,10 @@ body.active { overflow: hidden; }
 
 .about-banner:hover{
   scale: 105%;
-  box-shadow: 25px #ffffff;
+  box-shadow: 25px #ffffff90;
+  transform: ease-in-out;
+
+  
 }
 
 
